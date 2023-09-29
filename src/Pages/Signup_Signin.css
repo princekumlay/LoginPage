@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+}
+
+.main h1{
+    background-color: #fff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.content input{
+    outline: none;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px #333 solid;
+}
+
+.content .button{
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
